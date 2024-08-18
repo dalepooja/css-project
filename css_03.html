@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Links</h2>
+    
+    <style>
+        /* unvisited Links */
+        a:link {
+            color: darkorange;
+            text-decoration:none;
+        }
+
+        /* Visited link */
+        a:visited {
+            color:darkseagreen;
+        }
+
+
+        /* Selected Link */
+        a:active {
+            color: greenyellow;
+        }
+
+
+        /* Mouse OVer Link */
+        a:hover {
+            color: rgb(49,20,20);
+            text-decoration: underline;
+        }
+        </style>
+
+        <a href="http://www.zomato.com/india" target="_blank">Welcome</a>
+        <a href="http://www.zomato.com/india" target="_blank">Amazon</a>
+        
+        <hr>
+
+
+        <h2>CSS BOX Model</h2>
+        <!--
+            -content  :the area of the content in the box.
+            -padding  : the area between the border and the content.
+            -border   : the area between the padding and margin.
+            -margin   : the outer area of the box.
+             
+            top right bottom left for margin and padding
+            -->
+
+            <div style="background-color: darkorange;
+              width: 200px;
+              margin: 20px;
+              
+              padding: 0 87px 0 40px;
+              border: 2px solid rgb(25,41,2);">
+              <p>After the image.</p>
+              </div>
+
+              <!-- Display: none -->
+              <div style="background-color: darkorange;
+              width: 200px;
+              display: inline-block;
+               border: 4px solid rgb(25,41,2);">
+               <p>Before the image.</p>
+               <img src="./Assests/FS.png" width="100%" style="display:none;">
+               <p>After the image.</p>
+               </div>
+
+</body>
+</html>
